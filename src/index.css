@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  font-family: "Inter", sans-serif;
+}
+
+.travel_head{
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px;
+}
+
+.travel_head_img{
+  height: 30px;
+}
+
+.travel_heading{
+  font-weight: 400;
+  font-size: 20.46px;
+  color: white;
+  margin-left: 0.5%;
+}
+
+.card_container{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 40px 10px 25px 10px;
+}
+
+.card{
+  margin-right: 20px;
+  width: 160px;
+}
+
+.card_img{
+  height: 13rem;
+}
+
+.card_location{
+  display: flex;
+  align-items: center;
+  margin: 0%;
+}
+
+.card_locimg{
+  height: 16px;
+}
+
+.card_point{
+  margin: 0%;
+  font-size: medium;
+  font-weight: 300;
+  margin: 0px 15px 0px 10px;
+}
+
+.card_link{
+  color: #918E9B;
+  font-size: small;
+}
+
+.card_heading{
+  margin: 2% 0% 6% 0%;
+  font-size: 30px;
+}
+
+.card_dates{
+  margin: 0% 0% 3% 0%;
+  font-weight: 500;
+}
+
+.card_details{
+  font-weight: 300;
+  font-size: 13px;
+  margin: 0%;
+  width: 400px;
+}
